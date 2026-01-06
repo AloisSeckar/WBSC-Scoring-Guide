@@ -13,7 +13,7 @@ export default defineConfig({
       { text: 'Obsah',
         items: [
           { text: '1 - Pozice hráčů', link: '/chapters/1-1-positions' },
-          { text: '2 - Scoresheet', link: '/chapters/2-scoresheet' },
+          { text: '2 - Scoresheet', link: '/chapters/2-1-scoresheet' },
           { text: '3 - Základní rozehry', link: '/chapters/3-basic' },
           { text: '4 - Pokročilé situace', link: '/chapters/4-advanced' },
           { text: '5 - Střídání', link: '/chapters/5-substitution' },
@@ -27,12 +27,26 @@ export default defineConfig({
       {
         text: 'Obsah',
         items: [
-          { text: '1 - Pozice hráčů', link: '/chapters/1-1-positions' },
-          { text: '2 - Scoresheet', link: '/chapters/2-scoresheet' },
+          { 
+            text: '1 - Pozice hráčů', 
+            items: [
+              { text: 'Pozice hráčů', link: '/chapters/1-1-positions' }
+            ]
+          },
+          { 
+            text: '2 - Scoresheet', 
+            items: [
+              { text: 'Scoresheet', link: '/chapters/2-1-scoresheet' },
+              { text: 'Záhlaví', link: '/chapters/2-2-scoresheet-header' },
+              { text: 'Pálařské pořadí', link: '/chapters/2-3-scoresheet-batters' },
+              { text: 'Centrální část', link: '/chapters/2-4-scoresheet-center' },
+              { text: 'Statistiky', link: '/chapters/2-5-scoresheet-stats' },
+            ]
+          },
           { text: '3 - Základní rozehry', link: '/chapters/3-basic' },
           { text: '4 - Pokročilé situace', link: '/chapters/4-advanced' },
           { text: '5 - Střídání', link: '/chapters/5-substitution' },
-          { text: '6 - Vyhodnocování', link: '/chapters/6-stats' }
+          { text: '6 - Vyhodnocování', link: '/chapters/6-stats' },
         ]
       }
     ],
