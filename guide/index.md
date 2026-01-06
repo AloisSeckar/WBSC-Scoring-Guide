@@ -12,7 +12,7 @@ hero:
       link: /foreword
     - theme: alt
       text: Číst
-      link: /chapters/1-positions
+      link: /chapters/1-1-positions
 
 features:
   - title: Kompletní sada vědomostí

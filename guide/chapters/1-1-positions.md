@@ -14,7 +14,7 @@ Nejdůležitějších je devět pozic v obraně:
 - `8 / CF` = **Center Fielder** - střední polař
 - `9 / RF` = **Right Fielder** - pravý polař
 
-![An image](../images/1-01-positions.jpg)
+![An image](../images/1-1-positions.jpg)
 
 V papírovém zápisu se budete setkávat jak s čísly 1-9, tak se zkratkami. Většinu z vás asi nepřekvapí, ale určitě vhodné si je připomenout a nutné dobře zapamatovat. Obzvlášť pozor na prohazování vnějších polařů. Řeknete si „pravé pole“, klidně i nahlas, a zapíšete „LF“. Jak mohu potvrdit, před tím vás občas nezchrání ani dlouhá praxe.
 

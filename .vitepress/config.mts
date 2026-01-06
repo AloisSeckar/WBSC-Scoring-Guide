@@ -12,7 +12,7 @@ export default defineConfig({
       { text: 'Úvod', link: '/foreword' },
       { text: 'Obsah',
         items: [
-          { text: '1 - Pozice hráčů', link: '/chapters/1-positions' },
+          { text: '1 - Pozice hráčů', link: '/chapters/1-1-positions' },
           { text: '2 - Scoresheet', link: '/chapters/2-scoresheet' },
           { text: '3 - Základní rozehry', link: '/chapters/3-basic' },
           { text: '4 - Pokročilé situace', link: '/chapters/4-advanced' },
@@ -27,7 +27,7 @@ export default defineConfig({
       {
         text: 'Obsah',
         items: [
-          { text: '1 - Pozice hráčů', link: '/chapters/1-positions' },
+          { text: '1 - Pozice hráčů', link: '/chapters/1-1-positions' },
           { text: '2 - Scoresheet', link: '/chapters/2-scoresheet' },
           { text: '3 - Základní rozehry', link: '/chapters/3-basic' },
           { text: '4 - Pokročilé situace', link: '/chapters/4-advanced' },
