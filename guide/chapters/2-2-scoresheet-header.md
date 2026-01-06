@@ -18,7 +18,7 @@ Informačně bohatší první strana obsahuje:
 - **Start** - čas začátku utkání (jakmile rozhodčí zahájí hru, uvádíme na minutu přesně)
 - **End** - čas konce utkání (okamžik skončení poslední rozehry). Doporučuji se naučit sledovat a ihned si poznačit, pokud se k tomu dostanete až po skončení všech kontrol, už si nebudete pamatovat, kdy to bylo.
 - **Time** - délka zápasu, rozdíl mezi začátkem a koncem
-- **Umpires** - jména rozhodčích. Formát vyplnění je PŘÍJMENÍ Jméno. V baseballových soutěžích a na úrovni MS se do závorky za jméno doplňuje zkratka národnosti, v Evropském softballu se z nějakého důvodu dbá na to, aby národnosti zůstaly utajeny. Zapisuje se v pořadí HP, 1B, (2B[^1]) a (3B[^2]).
+- **Umpires** - jména rozhodčích. Formát vyplnění je PŘÍJMENÍ Jméno. V baseballových soutěžích a na úrovni MS se do závorky za jméno doplňuje zkratka národnosti, v Evropském softballu se z nějakého důvodu dbá na to, aby národnosti zůstaly utajeny. Zapisuje se v pořadí HP, 1B, 2B[^1] a 3B[^2].
 - **Scorers** - jména zapisovatelů. Platí totéž, co pro rozhodčí. Jako první se píše zapisovatel na papír, druhý operátor online zápisu a jako třetí případný zapisovatel nadhozů.
 - **T.C.** - jméno technických komisařů zodpovědných za zápas
 - **Skóre** - prostor vpravo je vyhrazen názvům týmů a bodům po jednotlivých směnách. Kolonek je připravených 15 a nezažil jsem natolik dlouhý zápas, aby to nestačilo, přestože zaznamenaný rekord je 33 [^3]. Na konci zápasu se úplně doprava zapíše výsledné skóre.
@@ -40,8 +40,8 @@ Na druhou stranu toho píšeme méně:
 
 ---
 
-[^1] Pokud je nominován
+[^1]: Pokud je nominován
 
-[^2] Pokud je nominován
+[^2]: Pokud je nominován
 
-[^3] Pawtucket Red Sox vs. Rochester Red Wings v roce 1981.
+[^3]: Pawtucket Red Sox vs. Rochester Red Wings v roce 1981.

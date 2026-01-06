@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      markdown-it-footnote:
+        specifier: ^4.0.0
+        version: 4.0.0
     devDependencies:
       vitepress:
         specifier: 2.0.0-alpha.15
@@ -703,6 +707,9 @@ packages:
 
   mark.js@8.11.1:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
+
+  markdown-it-footnote@4.0.0:
+    resolution: {integrity: sha512-WYJ7urf+khJYl3DqofQpYfEYkZKbmXmwxQV8c8mO/hGIhgZ1wOe7R4HLFNwqx7TjILbnC98fuyeSsin19JdFcQ==}
 
   marked@16.4.2:
     resolution: {integrity: sha512-TI3V8YYWvkVf3KJe1dRkpnjs68JUPyEa5vjKrp1XEEJUAOaQc+Qj+L1qWbPd0SJuAdQkFU0h73sXXqwDYxsiDA==}
@@ -1550,6 +1557,8 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.5
 
   mark.js@8.11.1: {}
+
+  markdown-it-footnote@4.0.0: {}
 
   marked@16.4.2: {}
 

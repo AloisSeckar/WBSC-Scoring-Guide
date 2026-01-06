@@ -38,4 +38,4 @@ To však bude detailně probíráno až v kapitole 5.
 
 ---
 
-[^1] Někteří naši zapisovatelé ze softbalového prostředí budou možná zvyklí na starší systém, který se v některých klubech stále ústní tradicí dědí, a krom dalších podstatných odlišností posouvá zobrazovací logiku o devadesát stupňů doleva - první meta je vpravo nahoře, domácí vpravo dole.
+[^1]: Někteří naši zapisovatelé ze softbalového prostředí budou možná zvyklí na starší systém, který se v některých klubech stále ústní tradicí dědí, a krom dalších podstatných odlišností posouvá zobrazovací logiku o devadesát stupňů doleva - první meta je vpravo nahoře, domácí vpravo dole.

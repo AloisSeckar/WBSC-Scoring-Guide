@@ -1,8 +1,15 @@
+import footnote from 'markdown-it-footnote'
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "guide",
+
+  markdown: {
+    config: (md) => {
+      md.use(footnote)
+    }
+  },
   
   title: "Příručka zapisovatele WBSC",
   description: "Vitepress site with Czech manual for WBSC scoring system",
