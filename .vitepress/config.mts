@@ -21,7 +21,7 @@ export default defineConfig({
         items: [
           { text: '1 - Pozice hráčů', link: '/chapters/1-1-positions' },
           { text: '2 - Scoresheet', link: '/chapters/2-1-scoresheet' },
-          { text: '3 - Základní rozehry', link: '/chapters/3-basic' },
+          { text: '3 - Základní rozehry', link: '/chapters/3-1-basic' },
           { text: '4 - Pokročilé situace', link: '/chapters/4-advanced' },
           { text: '5 - Střídání', link: '/chapters/5-substitution' },
           { text: '6 - Vyhodnocování', link: '/chapters/6-stats' }
@@ -50,7 +50,14 @@ export default defineConfig({
               { text: 'Statistiky', link: '/chapters/2-5-scoresheet-stats' },
             ]
           },
-          { text: '3 - Základní rozehry', link: '/chapters/3-basic' },
+          { text: '3 - Základní rozehry', 
+            items: [
+              { text: 'Základní rozehry', link: '/chapters/3-1-basic' },
+              { text: 'Auty pálkařů před 1. metou', link: '/chapters/3-2-basic-outs' },
+              { text: 'Obsazení mety pálkařem', link: '/chapters/3-3-basic-advances' },
+              { text: 'Auty a postupy běžců', link: '/chapters/3-4-basic-runners' },
+            ]
+          },
           { text: '4 - Pokročilé situace', link: '/chapters/4-advanced' },
           { text: '5 - Střídání', link: '/chapters/5-substitution' },
           { text: '6 - Vyhodnocování', link: '/chapters/6-stats' },
