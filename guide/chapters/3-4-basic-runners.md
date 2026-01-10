@@ -9,15 +9,11 @@ Princip zápisu je stejný, jen kolečko označující aut bude v těchto příp
 
 Auty běžců na metách tedy typicky vypadají následovně[^1]:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Aut běžce na 2. metě](../images/3-4-out-2B.png)
-
-![Aut běžce na 3. metě](../images/3-4-out-3B.png)
-
-![Aut běžce na domácí metě](../images/3-4-out-HP.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-4-out-2B.png', alt: 'Aut běžce na 2. metě' },
+{ src: '3-4-out-3B.png', alt: 'Aut běžce na 3. metě' },
+{ src: '3-4-out-HP.png', alt: 'Aut běžce na domácí metě' },
+]" />
          
 Pokud nastane nějaká složitější run-down situace, je z pohledu zapisovatele důležité vytvořit si návyk okamžitě si začít zaznamenávat (alespoň v hlavě, ale ideálně kamkoliv na papír před sebe) posloupnost, v jaké si polaři navzájem přihazují míč. Nestává se sice příliš často, aby se konaly víc jak dva nebo tři příhozy, než se něco semele, ale pokud už se to stane, tak si to zaručeně vzápětí nebudete pamatovat a budete jen s obtížemi lovit z paměti, kdo komu přihrával. Přitom je na vás, abyste to zaznamenali a zapsali tak, jak rozehra proběhla. Dnes už se ze spousty zápasů i v našich ligových soutěžích pořizuje živý přenos, takže v případě nouze bývá, kam se podívat a rozehru si zrekonstruovat, nespoléhejte však na video příliš - už proto, že se vám snadno stane, že při jeho studiu přehlédnete následující rozehru.
 
@@ -27,21 +23,16 @@ Aut běžce může mít důsledek na posouzení akce pálkaře, ale to si prober
 
 Prozatím budeme „postupem“ běžce myslet pouze posun o jednu nebo více met v důsledku akce pálkaře. Například - pálkař odpálí jednometový odpal a běžec, který byl v tu chvíli na první metě, postoupí na druhou metu. Takový postup se v zápisu vyznačí číslem pálkařského pořadí hráče (1-9)[^2], který má akci na svědomí.
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Postup běžce na akci 2. pálkaře](../images/3-4-adv-2B.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-4-adv-2B.png', alt: 'Postup běžce na akci 2. pálkaře' },
+]" />
  
 Číslo se píše tam, kde běžec v důsledku akce pálkaře skončil. Pokud tedy v jiné situaci dokáže díky dobrému umístění odpalu nebo rychlému běhu postoupit až na tři, zůstane druhá meta prázdná a číslo se objeví až u mety třetí. Pokud postoupí až domů a získá bod, budou prázdné druhá i třetí meta a číslo uvedeme u domácí mety.
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Postup běžce na akci 2. pálkaře - až na 3. metu](../images/3-4-adv-3B.png)
-
-![Postup běžce na akci 2. pálkaře - až domů](../images/3-4-adv-HP.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-4-adv-3B.png', alt: 'Postup běžce na akci 2. pálkaře - až na 3. metu' },
+{ src: '3-4-adv-HP.png', alt: 'Postup běžce na akci 2. pálkaře - až domů' },
+]" />
      
 Kdykoliv při čtení zápisu narazíme na metách na takto osamocené číslo, je nám jasné, že se máme podívat do kolonky v příslušném řádku, abychom dohledali, jaká akce k tomuto posunu vedla. Mohou to být odpaly, mety zdarma nebo i další situace, které si teprve budeme ukazovat.
 
@@ -57,27 +48,19 @@ Při nadhozu se občas něco nepovede - buďto nadhazovač míč hodně špatně
 
 Běžcům, kteří v důsledku takové situace postoupili, se zapíše zkratka situace následovaná číslem, které značí pořadí pálkaře, který byl v té době v pálkařském boxu (obdobně jako u postupů na akci pálkaře).
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Wild pitch (WP)](../images/3-4-wp-1.png)
-
-
-![Passed ball (PB)](../images/3-4-pb.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-4-wp-1.png', alt: 'Wild pitch (WP)' },
+{ src: '3-4-pb.png', alt: 'Passed ball (PB)' },
+]" />
      
 Identifikovat aktuálního pálkaře je důležité. Jinak by zpětně nemuselo být možné určit, kdy přesně tato rozehra nastala. Představte si, že čtete zápis a pálkaři 2, 3 a 4 jsou postupně všichni strikeout. Jak byste poznali, kdy zapsaná WP/PB situace nastala? Někdy se to odvodit dá, ale někdy se zkrátka nemáte čeho chytit. Pokud nevěříte, doporučuji se někdy nabídnout jako dobrovolník pro vyhodnocování „starého“ papírového zápisu.
 
 Číslo je tedy důležité a nesmíme zapomínat ho uvádět. Další důležitou věcí je, že musíme dát pozor u vícenásobných postupů:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![2x WP](../images/3-4-wp-2-a.png)
-
-
-![1x WP](../images/3-4-wp-2-b.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-4-wp-2-a.png', alt: '2x WP' },
+{ src: '3-4-wp-2-b.png', alt: '1x WP' },
+]" />
      
 Uvedení dvě situace nejsou totožné. V prvním případě jsme zapsali, že napřed postoupil běžec z 2. na 3. metu a teprve poté na nějaký další nadhoz šel i běžec, co se předtím zapomněl, z 1. na 2. metu. Ve statistikách to znamená dva WP pro nadhazovače. Situace vpravo je zápis toho, co se obvykle v této situaci stává - oba běžci postoupili zároveň na jeden WP. WP/PB velkými písmeny se v takovém případě zapíše pouze vedoucímu z běžců, zatímco ti za ním mají zapsáno wp/pb malými písmeny. Pozor, že obě varianty mohou nastat a jsou zapsány správně. Jen říkají dvě různé věci a vy jste ti, kteří musí správně určit a zapsat, co se doopravdy stalo.
 
@@ -90,24 +73,18 @@ Polední slovo u každé konkrétní rozehry budete mít vždycky vy. Užívejte
 
 Pokud běžec vyběhne s nadhozem (v baseballu při začátku nadhazovačova pohybu, v softballu ve chvíli, kdy míč opustí jeho ruku) a zvládne získat další metu, připíše si úspěšnou krádež (SB - stolen base). Způsob zápisu je obdobný WP/PB - zkratka situace a číslo pálkařského pořadí hráče, který je v té chvíli v pálkařském boxu:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Stolen Base (SB)](../images/3-4-sb.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-4-sb.png', alt: 'Stolen Base (SB)' },
+]" />
  
 Pokus o krádež mety má přednost před WP/PB. Pokud vidíte, že běžec vybíhá předem, pište krádež i ve chvíli, kdy na něj kvůli zahozenému či nechycenému nadhozu nemohla obrana ani zkoušet hrát. To není běžcova chyba, tudíž ho nemůžeme penalizovat za to, že na jeho pokus zrovna tým v obraně něco pokazil. 
 
 WP/PB situaci můžeme vzít do úvahy teprve tehdy, pokud v jejím důsledku dojde k dalšímu postupu - což se může stát, protože běžec, který už je v pohybu díky pokusu o krádež, může zareagovat a plynule pokračovat dál. Například je tedy možné zapsat toto:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![SB + WP](../images/3-4-sb-wp.png)
-
-
-![SB + PB](../images/3-4-sb-pb.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-4-sb-wp.png', alt: 'SB + WP' },
+{ src: '3-4-sb-pb.png', alt: 'SB + PB' },
+]" />
 
 Tyto zápisy obsahují jeden nový prvek, o němž dosud nebyla řeč. Všimněte si malé čárky nahoře, která spojuje navazující situace. Tím dáváme najevo, že se obě staly zároveň v jedné rozehře. Jinak by budoucí čtenář zápisu logicky interpretoval, že napřed byla ukradena meta a teprve poté na další nadhoz došlo k WP/PB. Ještě se k tomuto vrátíme později, ale zatím si pamatujte, že čárka mezi dvěma situacemi znamená „současně“.
 

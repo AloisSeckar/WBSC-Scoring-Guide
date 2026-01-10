@@ -2,7 +2,8 @@
 
 # Centrální část
 
-![Centrální část](../images/2-4-center.png)
+
+<ImageView :images="[{ src: '2-4-center.png', alt: 'Centrální část' }]" />
 
 Kolonka zápisu reprezentuje start daného pálkaře (řádek) v dané směně (sloupec). Využijí se pochopitelně jen ty, kdy ke startu skutečně došlo, a celá řada jich v průběhu každého zápasu zůstane prázdná.
 
@@ -14,11 +15,12 @@ Pokračování se do zápisu naznačí šipkou (OBR) a rovněž se vyznačí v z
 
 Číslo směny se píše do malého čtverečku vlevo nahoře:
 
-![Označení směny](../images/2-4-inning.png)
+
+<ImageView :images="[{ src: '2-4-inning.png', alt: 'Označení směny' }]" />
  
 Protože není předem jasné, kolik pálkařů se za směnu vystřídá, nejsou předtištěné. Pokud jde ve směně více než 9 pálkařů, zápis „přeteče“ do dalšího sloupce, což se zdůrazní šipkou:
 
-![Označení směny - více než 9 pálkařů](../images/2-4-inning-2.png)
+<ImageView :images="[{ src: '2-4-inning-2.png', alt: 'Označení směny - více než 9 pálkařů' }]" />
  
 ## Postupy a auty
 
@@ -32,7 +34,7 @@ Situace, která skončila autem, se dává do kroužku. Z počtu kroužků v zá
 
 Prázdný prostor v záhlaví sloupce může být použit k zachycení informací o střídání:
 
-![Prostor pro zápis střídání](../images/2-4-sub.png)
+<ImageView :images="[{ src: '2-4-sub.png', alt: 'Prostor pro zápis střídání' }]" />
  
 To však bude detailně probíráno až v kapitole 5.
 

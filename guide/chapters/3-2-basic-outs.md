@@ -6,11 +6,7 @@ Ideální situací pro obranu a rovněž pro zapisovatele je, když se pálkař 
 
 Jelikož není třeba značit žádný postup po metách, je pro zápis autu možné využít celou kolonku. Konkrétní situace bude zapsána uvnitř velkého kroužku:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Aut pálkaře](../images/3-2-out-empty.png)
-
-</div>
+<ImageView :images="[{ src: '3-2-out-empty.png', alt: 'Aut pálkaře' }]" />
  
 ## Ground out
 
@@ -20,39 +16,24 @@ Odkaz na pravidla
 
 Zápis je pro obě situace stejný - pozice hráče v obraně, který přihrával, následovaná pozicí spoluhráče, který zahrál aut. Mezi čísly se správně nedělá pomlčka, byť ji řada zapisovatelů ze zvyku používá a faktickou chybou zhoršující čitelnost zápisu to není[^1].
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Ground out (SS - 1B)](../images/3-2-out-63.png)
-
-![Ground out (2B - 1B)](../images/3-2-out-43.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-2-out-63.png', alt: 'Ground out (SS - 1B)' },
+{ src: '3-2-out-43.png', alt: 'Ground out (2B - 1B)' },
+]" />
      
 Nejčastěji přihrávají vnitřní polaři (2B, 3B a SS) či nadhazovač (P) potažmo catcher (C) na první metu (1B). V baseballu není až tak neobvyklé, že první metař jde pro míč daleko dopředu a na metě ho zastoupí nadhazovač. Někdy aut zahraje i hráč na druhé metě. Při kombinaci rychlého odpalu, dobrého příhozu a pomalejšího běžce je občas možné stihnout příhoz z vnějšího pole, nejčastěji z pravého (RF).
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Ground out (RF - 1B)](../images/3-2-out-93.png)
-
-</div>
+<ImageView :images="[{ src: '3-2-out-93.png', alt: 'Ground out (RF - 1B)' }]" />
  
 Patří sem i varianta, kdy k přihrávce nedochází, a polař rovnou sám šlape metu nebo tečuje běžícího pálkaře. Tu obvykle vídáme u první mety:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Ground out (1B)](../images/3-2-out-3.png)
-
-</div>
+<ImageView :images="[{ src: '3-2-out-3.png', alt: 'Ground out (1B)' }]" />
  
 Vzácněji je k vidění situace krátkého odpalu do blízkosti domácí mety, který zpracuje catcher a doběhne pomalejšího nebo pozdě reagujícího pálkaře. Nic nebrání ani dalším kurioznějším situacím.
 
 Je možný i větší počet asistencí. Teoreticky jich může být libovolný počet, prakticky se setkáváme max. se dvěma. Typickou situací, kterou zapisovatel posoudí jako dvojitou asistenci, je teč polaře, která změní směr odpáleného míče natolik, že se k němu dostane jeho kolega, který jej teprve úspěšně zpracuje a včas přihodí. V tomto případě nerozhoduje, že tato první přihrávka obvykle nebývá vědomá, nýbrž jde pouze o reflexivní pokus chytit míč, či dokonce o nedokonalost zpracování. Předpokladem je taková změna směru odpalu, která usnadní práci druhému z polařů.
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Ground out (P - 2B - 1B)](../images/3-2-out-143.png)
-
-</div>
+<ImageView :images="[{ src: '3-2-out-143.png', alt: 'Ground out (P - 2B - 1B)' }]" />
  
 VID 3-4-3
 
@@ -70,15 +51,11 @@ Zde je na zapisovateli, aby rozhodl, o jaký typ letícího míče šlo. Na výb
 
 Po písmenu, které určuje typ, následuje pozice polaře, který zahrál aut:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Fly out (2B)](../images/3-2-out-ff3.png)
-
-![Pop out (2B)](../images/3-2-out-fp3.png)
-
-![Line out (2B)](../images/3-2-out-fl3.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-2-out-f4.png', alt: 'Fly out (2B)' },
+{ src: '3-2-out-p4.png', alt: 'Pop out (2B)' },
+{ src: '3-2-out-l4.png', alt: 'Line out (2B)' },
+]" />
          
 Mezi zapisovateli nepanuje jasná shoda na výkladu pravidel pro aplikaci té které situace. Často jsou slyšet spory, jestli psát ještě „fly“, nebo už to byl „pop up“, či zda byl odpal dostatečně přímý, aby si zasloužil označení „line drive“. Někteří uplatňují názor, že v zadním poli je každopádně všechno „fly“, další včetně mě s tím nesouhlasí. Každopádně finální rozhodnutí o konkrétní rozehře bude vždy na vás a vašem úsudku. 
 
@@ -86,25 +63,17 @@ Dobrá zpráva ovšem je, že z hlediska statistik jsou všechny tři možnosti 
 
 V podstatě ze stejného důvodu rozeznáváme speciální případy, kdy je míč ze vzduchu chycen mimo čtvrtkruh vymezující hřiště, tj. v zámezí („ve foul ballu“). V takovém případě se na začátek přidá ještě jedno F jako „foul“. Opět je možné blíže specifikovat tvar dráhy odpalu:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Foul fly out (1B)](../images/3-2-out-ff3.png)
-
-![Foul pop out (1B)](../images/3-2-out-fp3.png)
-
-![Foul line out (1B)](../images/3-2-out-fl3.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-2-out-ff3.png', alt: 'Foul fly out (1B)' },
+{ src: '3-2-out-fp3.png', alt: 'Foul pop out (1B)' },
+{ src: '3-2-out-fl3.png', alt: 'Foul line out (1B)' },
+]" />
          
 Často je místo chycení odpalu zjevné a rozhodnutí zda „fair či foul“ zvládnete udělat sami, ať už hru sledujete odkudkoliv. Některé situace jsou ale těsné a pohled ze strany může zkreslovat. V takových chvílích vám může pomoct hlavní rozhodčí, který chycení vyhlašuje. Pokud je dostatečně zkušený, tak si jednak naběhne tak, aby stál přímo na čáře a viděl jednoznačně, na které straně se nachází rukavice chytajícího polaře, ale navíc to ještě po vyhlášení gesta pro aut rukou ukáže - buďto do hřiště nebo ven. Pamatujte na to, a když na to dojde, tak rozhodčího po očku sledujte. V nejhorším zrovna neukáže nic a vy to budete muset odhadnout sami. 
 
 Nebývá to příliš časté, ale i v tomto případě lze dosáhnout (neúmyslné) asistence. Hráči se při chytání odpalu vždycky snaží jeden druhého „zaběhnout“, aby mohli co nejrychleji napravit kolegovo případné zaváhání. A tak se občas povede, že chytající si míč pouze nadrazí někam nad sebe, a když má jeho spoluhráč dostatečný postřeh a trochu štěstí, podaří se aut zahrát jemu. Jelikož se míč stále nedotkl země, platí pravidlo o chycení ze vzduchu. A jelikož teč k výsledku rozehry chtě nechtě přispěla, počítá se jako asistence. Zápis pak může vypadat třeba takto:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Fly out + asistence (CF - LF)](../images/3-2-out-f98.png)
-
-</div>
+<ImageView :images="[{ src: '3-2-out-f98.png', alt: 'Fly out + asistence (CF - LF)' }]" />
  
 ## Strikeout
 
@@ -120,25 +89,19 @@ V některých méně jasných situacích je dobré sledovat gestikulaci rozhodč
 
 Základní dva strikeouty se v zápise značí následovně:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Strikeout swinging](../images/3-2-out-ks.png)
-
-![Strikeout looking](../images/3-2-out-kl.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-2-out-ks.png', alt: 'Strikeout swinging' },
+{ src: '3-2-out-kl.png', alt: 'Strikeout looking' },
+]" />
      
 Malé číslo vpravo dole slouží k počítání strikeoutů dosažených aktuálním nadhazovačem, což má poté usnadňovat vyhodnocování. Nezapomínejte, že po každém střídání nadhazovače je nutné toto počítadlo „resetovat“ a počítat znovu od jedné.
 
 Pokud se stane, že catcher třetí strike neudrží, může stále realizovat aut, pokud míč sebere a pálkaře sám tečuje, nebo včas a přesně přihodí na první metu, kterou obraně stačí zašlápnout. Zápis těchto dvou situací je kombinací symbolů pro strikeout a základní ground out:
 
-<div style="display: flex; flex-direction: row; gap: 1rem;">
-
-![Strikeout looking - aut C](../images/3-2-out-kl2.png)
-
-![Strikeout swinging - aut C - 1B](../images/3-2-out-ks23.png)
-
-</div>
+<ImageView :images="[
+{ src: '3-2-out-kl2.png', alt: 'Strikeout looking - aut C' },
+{ src: '3-2-out-ks23.png', alt: 'Strikeout swinging - aut C - 1B' },
+]" />
      
 Výčet možností, co se může po strikeoutu stát, tímto zdaleka nekončí, ovšem další varianty už plnou z chyb v obranné hře a jejich výsledkem je obsazená (nejméně) první meta, pročež jejich výklad prozatím odložím, než probereme pojmy potřebné k jejich poskládání.
 

@@ -6,8 +6,8 @@ Hlavička má význam především na mezinárodních turnajích, kde je vyžado
 Znovu pozor, že hlavičky obou listů nejsou stejné a pro správné vyplnění záleží na pořadí. Ten list, kde je více údajů a obsahuje vpravo nahoře políčka pro skóre po směnách, je první a vypisuje se na něj hostující tým, který chodí první na pálku. List s méně kolonkami a prostorem pro poznámky je určen pro domácí tým, který pálí až jako druhý.
 
 ## Hosté
- 
-![Záhlaví prvního listu pro hostující tým](../images/2-2-first.png)
+
+<ImageView :images="[{ src: '2-2-first.png', alt: 'Záhlaví prvního listu pro hostující tým' }]" />
 
 Informačně bohatší první strana obsahuje:
 - **Tournament** - název turnaje (typicky takto zapisujeme mezinárodní turnaje)
@@ -25,7 +25,7 @@ Informačně bohatší první strana obsahuje:
  
 ## Domácí
 
-![Záhlaví druhého listu pro domácí tým](../images/2-2-second.png)
+<ImageView :images="[{ src: '2-2-second.png', alt: 'Záhlaví druhého listu pro domácí tým' }]" />
 
 Na druhou stranu toho píšeme méně:
 - **Tournament** - název turnaje (často se používá zkratka)
