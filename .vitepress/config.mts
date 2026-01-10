@@ -1,5 +1,6 @@
 import footnote from 'markdown-it-footnote'
 import { defineConfig } from 'vitepress'
+import { preventSingleLetterOrphans } from 'elrh-pslo'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,7 +8,16 @@ export default defineConfig({
 
   markdown: {
     config: (md) => {
+      // plugin for styled and linked footnotes
       md.use(footnote)
+
+      // handle czech typography rules
+      // (no single-letter word ad the end of the line)
+      const originalRender = md.render.bind(md)
+      md.render = (src, env) => {
+        const html = originalRender(src, env)
+        return preventSingleLetterOrphans(html)
+      }
     }
   },
   
