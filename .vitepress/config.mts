@@ -32,7 +32,7 @@ export default defineConfig({
           { text: '1 - Pozice hráčů', link: '/chapters/1-1-positions' },
           { text: '2 - Scoresheet', link: '/chapters/2-1-scoresheet' },
           { text: '3 - Základní rozehry', link: '/chapters/3-1-basic' },
-          { text: '4 - Pokročilé situace', link: '/chapters/4-advanced' },
+          { text: '4 - Pokročilé situace', link: '/chapters/4-1-advanced' },
           { text: '5 - Střídání', link: '/chapters/5-substitution' },
           { text: '6 - Vyhodnocování', link: '/chapters/6-stats' }
         ]
@@ -68,7 +68,19 @@ export default defineConfig({
               { text: 'Auty a postupy běžců', link: '/chapters/3-4-basic-runners' },
             ]
           },
-          { text: '4 - Pokročilé situace', link: '/chapters/4-advanced' },
+          { text: '4 - Pokročilé situace', 
+            items: [
+              { text: 'Pokročilé situace', link: '/chapters/4-1-advanced' },
+              { text: 'Odpaly', link: '/chapters/4-2-advanced-hits' },
+              { text: 'Auty', link: '/chapters/4-3-advanced-outs' },
+              { text: 'Chyby v poli', link: '/chapters/4-4-advanced-errors' },
+              { text: 'Volba v obraně', link: '/chapters/4-5-advanced-fcs' },
+              { text: 'Sebeobětovací rozehry', link: '/chapters/4-6-advanced-sacrifices' },
+              { text: 'Chyby + pokročilé situace', link: '/chapters/4-7-advanced-errors-2' },
+              { text: 'Out by rule', link: '/chapters/4-8-advanced-obrs' },
+              { text: 'Hra na výzvu', link: '/chapters/4-9-advanced-appeals' },
+            ]
+          },
           { text: '5 - Střídání', link: '/chapters/5-substitution' },
           { text: '6 - Vyhodnocování', link: '/chapters/6-stats' },
         ]
