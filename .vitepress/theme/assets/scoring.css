@@ -1,0 +1,6 @@
+/* justify all paragraphs and lists in scoring guide for better readability  */
+/* this page uses elrh_pslo to handle czech single-letter words at line ends */
+.vp-doc p,
+.vp-doc li {
+  text-align: justify;
+}

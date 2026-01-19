@@ -1,6 +1,8 @@
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 
+import './assets/scoring.css'
+
 import ImageView from './components/ImageView.vue'
 
 export default {
