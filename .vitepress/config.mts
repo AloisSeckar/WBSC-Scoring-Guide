@@ -34,7 +34,7 @@ export default defineConfig({
           { text: '3 - Základní rozehry', link: '/chapters/3-1-basic' },
           { text: '4 - Pokročilé situace', link: '/chapters/4-1-advanced' },
           { text: '5 - Střídání', link: '/chapters/5-substitution' },
-          { text: '6 - Vyhodnocování', link: '/chapters/6-stats' }
+          { text: '6 - Vyhodnocování statistik', link: '/chapters/6-1-stats' }
         ]
       }
     ],
@@ -82,7 +82,16 @@ export default defineConfig({
             ]
           },
           { text: '5 - Střídání', link: '/chapters/5-substitution' },
-          { text: '6 - Vyhodnocování', link: '/chapters/6-stats' },
+          { text: '6 - Vyhodnocování statistik',
+            items: [
+              { text: 'Vyhodnocování statistik', link: '/chapters/6-1-stats' },
+              { text: 'Statistiky pálkařů', link: '/chapters/6-2-stats-batters' },
+              { text: 'Statistiky polařů', link: '/chapters/6-3-stats-fielders' },
+              { text: 'Statistiky nadhazovačů', link: '/chapters/6-4-stats-pitchers' },
+              { text: 'Statistiky catcherů', link: '/chapters/6-5-stats-catchers' },
+              { text: 'Balance scoresheetu', link: '/chapters/6-6-stats-balance' },
+            ]
+          },
         ]
       }
     ],
