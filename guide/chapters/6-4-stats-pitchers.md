@@ -160,4 +160,50 @@ Při počtech zápasů a počtech nadhazovačů na zápas, které máme v našic
 
 ## Určování ER {#urcovani-er}
 
-TODO
+Úkolem nadhazovače je házet tak, aby soupeř nezískával body. Nemusí nutně předvádět samé strikeouty, ale očekává se od něj, že v každé směně nabídne tři situace na aut pálkařů. Body (Runs - **R**), které nastanou před třetí autovou situací, jdou na jeho vrub, takže jsou nadhazovačem umožněné (Earned runs - **ER**). Umožněný bod se v zápisu vyznačí vybarvením vnitřní plochy kosočtverce spojujícího oběhnuté mety.
+
+TODO obrázky
+
+Ve chvíli, kdy obrana hraje bezchybně, se počet **R** a **ER** rovná - všechny doběhy, které druhý tým zvládl získat jsou „vina“ nadhazovače, který nedokázal protivníky dostat dostatečně pod tlak a umožnil jim obsazovat mety a postupovat. Věc se však mění a zamotává ve chvíli, kdy se v zápise objeví chyby obrany.
+
+### „Velké“ chyby
+
+Běžec, v jehož záznamu startu se objeví „velká“ chyba (**E**), nemůže být nikdy umožněný doběh, protože nadhazovač své obraně šanci zahrát aut dal. Ačkoliv kolegové selhali, odpovědnost je z něj sejmuta. A to dokonce i v případě, pokud **E1** vyrobí on sám. Na to kupodivu není specifická výjimka. Platí také to, že se tato velká chyba přičítá k realizovaným autům. Dva zahrané auty + jedna chyba nebo jeden zahraný aut + dvě chyby nebo tři chyby znamenají z pohledu nadhazovače totéž co tři zahrané auty - směna je u konce a cokoliv se stane dalšího, už není jeho starost. Všechny body získané soupeřem od okamžiku třetí příležitosti k autování už jsou pak vždy neumožněné, a to i v případě, že jsou dosahovány přes odpaly, mety zdarma apod. Nadhazovač už zkrátka své obraně šanci dal.
+
+Existuje výjimka. Pokud je na stejného běžce napřed **E**, ale o něco později v jiné rozehře je přeci jen úspěšně vyautován, nelze ho nadhazovači počítat jako dvě různé šance na aut. Každý hráč může být v jednom svém vystoupení logicky aut pouze jednou, tudíž se v tomto případě rovněž jako šance na aut počítá pouze jednou.
+
+Ještě méně intuitivní situací je pravidlo o „přebírání“ chyby v případě volby v obraně. Pokud se hráč na mety dostane na chybu, ale následně je autován volbou v obraně, pak nerealizovaná šance na aut přechází na pálkaře, který přitom nově obsadil první metu. Kdyby totiž nebyl na metě běžec, který se tam dostal na dřívější chybu, nehrála by se volba v obraně, ale hrál by se aut na běžícího pálkaře, přičemž pro účely této situace se předpokládá, že by byl úspěšný. Ačkoliv tedy máme ve hře hráče, na nějž se žádná chyba nestala, musíme se v případě jeho doběhu stejně zachovat tak, jako kdyby u něj v zápise velké **E** bylo a takový doběh vyhodnotit jako neumožněný.
+
+### „Malé“ chyby
+
+Složitější jsou postupy běžců kvůli „malým“ chybám (**e**), chybám, co nastaly jinde (postupy v závorce), a postupy v důsledku passed ballů (**PB**)[^1]. Zde přichází potenciálně těžká úloha zapisovatele, který se musí při posuzování umožněných a neumožněných bodů tvářit, jako kdyby se tyto situace nestaly.
+
+Tento typ postupu totiž umožněnost získaného bodu ovlivnit může a nemusí. Pokud např. přijde postup z první mety na druhou na **PB** a vzápětí pálkař odpálí homerun, je úplně jedno, zda běžec začínal z druhé nebo z první mety, domů by doběhl tak jako tak. Stejně tak pokud jsou obsazeny všechny mety, běžec skóruje po **PB**, ale pálkař o chvíli později získá **BB**, byl by výsledek stejný a bod je tedy nahazovačem umožněný.
+
+Pokud však **PB** posune běžce z 2. na 3. metu a následuje dlouhý **SF** odpal, který znamená bod, následovaný dvěma strikeouty, musí doběh nutně zůstat neumožněný. Protože v situaci bez **PB** by běžec na dlouhý luft postoupil maximálně z 2. na 3. metu (pokud vůbec) a domů by se neměl jak dostat.
+
+Reálné situace mohou být mnohem víc zamotané a občas to skutečně není snadné rozklíčovat. Jediná pomoc je trénink a postupně nabírané zkušenosti. Co však zkušenější zapisovatelé u složitějších případů doporučují, je průběh hypotetické „ideální“ směny bez chyb někam bokem zapsat. To, co v hlavně nemusíte udržet, vypadá najednou vizualizováno na papíře mnohem jasněji.
+
+### Speciální případy
+
+Běžec, který se na metě ocitne po překážení catchera (**INT**/**OB**) či hráče v obraně (**OBx**) nemůže být umožněným doběhem, protože nadhazovač za jeho vstup do hry nemůže. Zároveň však **INT** a **OB** není šancí na aut, protože to ani nelze považovat za nadhazovačovu zásluhu.
+
+Jiným speciálním příkladem je běžec z tiebreaku (**TIE**), který se do hry dostává zásahem pravidel, takže i pro něj platí, že jeho doběh nebude nikdy umožněný nadhazovačem, a logicky ani není šancí týmu na aut.
+
+### Týmově neumožněný bod
+
+Jako kdyby určování umožněných/neumožněných bodů nebylo dostatečně složité samo o sobě, existuje ještě jedna výjimka, jejíž existence implikuje ještě třetí variantu - bod, který je tzv. týmově neumožněný. 
+
+Pro nadhazovače, který směnu začne házet, platí to, co bylo řečeno výše - jakmile nastanou tři příležitosti k autování, jeho povinnosti jakoby končí. Pokud tři příležitosti skončily třemi chybami, stále se hraje dál, ale body pro tohoto nadhazovače nemohou být umožněné.
+
+Situace se však může změnit, pokud do hry nastoupí nový nadhazovač. Ten si těžko může nárokovat nezahrané chyby vlastního pole a tvrdit, že do hry přichází ve době, kdy už měly být všechny příležitosti k autování proměněny - to by znamenalo, že vlastně vůbec nemusí házet. Proto může převzít pouze skutečně realizované auty. Zbývá-li dohodit poslední aut do konce směny, je jeho úkolem nabídnout jednu příležitost. Nebyl-li dosud zahrán žádný aut, musí zvládnout předložit svému poli auty tři. Teprve poté, pokud by obrana opět zachybovala a směna se dále prodlužovala, může začít uplatňovat konec svých povinností a další body už budou z jeho pohledu neumožněné.
+
+Aby se v zápise najednou nezačaly znovu objevovat umožněné body a nedocházelo ke zmatení ze základního pravidla, že po třech příležitostech k autování už další umožněné body být nemohou, je zavedena tato speciální kategorie týmově neumožněných bodů. Je to relativně vzácná situace, ale dochází k ní, a v zájmu udržení správných statistik v dlouhodobé soutěži[^2], je třeba tyto body zachytit a správně vyhodnotit. Pokud je budete opomíjet, můžete některým nadhazovačům neoprávněně vylepšit jejich výkony.
+
+TODO obrázek
+
+---
+
+[^1]: Pozor, nikoliv **WP** - za ty si může nadhazovač sám, tudíž ho odpovědnosti za doběhy nezbavují.
+
+[^2]: V baseballové extralize je **ERA** hlavní kritérium pro určení nejlepších nadhazovačů ročníku.
