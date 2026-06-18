@@ -29,12 +29,12 @@ export default defineConfig({
       { text: 'Úvod', link: '/foreword' },
       { text: 'Obsah',
         items: [
-          { text: '1 - Pozice hráčů', link: '/chapters/1-1-positions' },
+          { text: '1 - Základy', link: '/chapters/1-1-positions' },
           { text: '2 - Scoresheet', link: '/chapters/2-1-scoresheet' },
           { text: '3 - Základní rozehry', link: '/chapters/3-1-basic' },
           { text: '4 - Pokročilé situace', link: '/chapters/4-1-advanced' },
           { text: '5 - Střídání', link: '/chapters/5-substitution' },
-          { text: '6 - Vyhodnocování statistik', link: '/chapters/6-1-stats' }
+          { text: '6 - Statistiky', link: '/chapters/6-1-stats' }
         ]
       }
     ],
@@ -45,7 +45,7 @@ export default defineConfig({
         text: 'Obsah',
         items: [
           { 
-            text: '1 - Pozice hráčů', 
+            text: '1 - Základy', 
             items: [
               { text: 'Pozice hráčů', link: '/chapters/1-1-positions' }
             ]
@@ -82,7 +82,7 @@ export default defineConfig({
             ]
           },
           { text: '5 - Střídání', link: '/chapters/5-substitution' },
-          { text: '6 - Vyhodnocování statistik',
+          { text: '6 - Statistiky',
             items: [
               { text: 'Vyhodnocování statistik', link: '/chapters/6-1-stats' },
               { text: 'Statistiky pálkařů', link: '/chapters/6-2-stats-batters' },
